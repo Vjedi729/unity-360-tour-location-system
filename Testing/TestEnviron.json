@@ -1,0 +1,41 @@
+{
+  "locations": [
+    {
+      "name": "Desk 1",
+      "isVideo": false,
+      "displayPath": "Assets/Image/3d 2",
+      "directions": [
+        {
+          "angle": 90,
+          "targetName": "Desk 2"
+        }
+      ]
+    },
+    {
+      "name": "Desk 2",
+      "isVideo": false,
+      "displayPath": "Assets/Image/3d 1",
+      "directions": [
+        {
+          "angle": 90,
+          "targetName": "Desk 3"
+        },
+        {
+          "angle": -90,
+          "targetName": "Desk 1"
+        }
+      ]
+    },
+    {
+      "name": "Desk 3",
+      "isVideo": false,
+      "displayPath": "Assets/Image/3d",
+      "directions": [
+        {
+          "angle": -90,
+          "targetName": "Desk 2"
+        }
+      ]
+    }
+  ]
+}
